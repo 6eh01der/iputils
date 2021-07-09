@@ -20,7 +20,7 @@ if [ "$1" = configure ]; then
         chmod u+s $PROGRAM
     fi
 fi
-adduser rdisc
+useradd --system rdisc
 #DEBHELPER#
 
 exit 0

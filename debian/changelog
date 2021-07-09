@@ -1,3 +1,7 @@
+iputils (20210709-1) unstable; urgency=medium
+
+  * Running rdisc by non privileged user
+
 iputils (20210702-1) unstable; urgency=medium
 
   * Fixed rdisc capabilities

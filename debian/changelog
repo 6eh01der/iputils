@@ -3,7 +3,7 @@ iputils (20210709-1) unstable; urgency=medium
   * Running rdisc by non privileged user
   * Added /etc/default/rdisc environment file creation
   
- -- IBeholderI <ras_atari@mail.ru>  Fri, 09 Jul 2021 13:37:00 +0000
+ -- IBeholderI <ras_atari@mail.ru>  Fri, 09 Jul 2021 16:56:00 +0000
 
 iputils (20210702-1) unstable; urgency=medium
 

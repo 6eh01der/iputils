@@ -21,7 +21,7 @@ if [ "$1" = configure ]; then
     fi
 fi
 useradd --system --shell /usr/sbin/nologin --home-dir /dev/null rdisc
-echo OPTIONS="-s" >> /etc/default/rdisc
+echo OPTIONS=\"-s\" >> /etc/default/rdisc
 #DEBHELPER#
 
 exit 0

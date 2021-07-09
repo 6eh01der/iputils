@@ -9,7 +9,7 @@ if [ "$1" = configure ]; then
     # which allows us to install our binaries without the setuid
     # bit.
     if command -v setcap > /dev/null; then
-        if setcap cap_net_raw,cap_net_admin+p $PROGRAM; then
+        if setcap cap_net_raw,cap_net_admin+ep $PROGRAM; then
             chmod u-s $PROGRAM
         else
             echo "Setcap failed on $PROGRAM, falling back to setuid" >&2

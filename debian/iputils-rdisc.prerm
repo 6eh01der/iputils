@@ -3,7 +3,6 @@
 set -e
 
 if [ "$1" = remove ] || [ "$1" = deconfigure ]; then
-  userdel rdisc
   rm -f /etc/default/rdisc
 fi
 

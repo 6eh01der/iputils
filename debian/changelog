@@ -1,6 +1,6 @@
 iputils (20210722-1) unstable; urgency=medium
 
-  * set caps or suid only if init system is not systemd
+  * set caps or suid to rdisc only if init system is not systemd
   * added DynamicUser directive to rdisc systemd service file
   
  -- IBeholderI <ras_atari@mail.ru>  Thu, 22 Jul 2021 12:10:00 +0000

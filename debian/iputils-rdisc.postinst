@@ -20,7 +20,6 @@ if [ "$1" = configure ]; then
         chmod u+s $PROGRAM
     fi
 fi
-useradd --system --shell /usr/sbin/nologin --home-dir /dev/null rdisc
 echo OPTIONS=\"-s\" >> /etc/default/rdisc
 #DEBHELPER#
 
